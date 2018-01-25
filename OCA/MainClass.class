@@ -1,0 +1,21 @@
+
+public class MainClass
+{
+    public MainClass()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        Cat cat = new Cat();
+        kitten kitten1 = new kitten();
+        kitten kitten2 = new kitten();
+        Cat _tmp = cat;
+
+        Cat.meaw();
+        kitten _tmp1 = kitten1;
+        Cat.meaw();
+        kitten _tmp2 = kitten2;
+        kitten.meaw();
+    }
+}
